@@ -1,0 +1,276 @@
+/* Common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+
+    width: 1170px;
+    margin: auto ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.align-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content:center;
+}
+/* Common css ends */
+
+/* navbar stars */
+nav {
+    background-color:#02918c ;
+}
+nav .logo{
+    width: 40%;
+}
+
+nav .menu{
+     width: 60%;
+     text-align: right;
+     
+}
+nav .menu ul li {
+ display: inline-block;
+}
+
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+} 
+
+.btn{
+
+    display: inline-block;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: black;
+    padding: 19px 43px ;
+    border-radius: 10px;
+    text-transform: uppercase;
+    
+}
+
+/* navbar stars */
+
+/* banner css */
+.banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    width: 100%;
+    background-size: cover;
+
+}
+.banner .container,
+.banner .row{
+    height: 100%;
+
+}
+
+.banner .banner_cnt{
+    text-align: center;
+    color: white;
+}
+
+.banner .banner_cnt h4{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.banner .banner_cnt h1{
+    font-weight: 800;
+    font-size:68px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+.banner .banner_cnt p{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.banner .banner_cnt img{
+    margin: 50px 0;
+    width:150px;
+}
+/* banner css ends */
+/* about css  */
+.about{
+    text-align: center;
+    display: flex;
+}
+.about .about-cnt{
+    color: #02918c;
+    padding: 100px 0;
+}
+.about .about-cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+}
+
+.about .about-cnt h3{
+    font-size: 20px;
+    color: grey;
+    padding: 30px 0 ;
+}
+
+.about .about-cnt p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about .about-cnt span{
+    color: grey;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.about .about-cnt h5{
+    font-size: 15px;
+    color: grey;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+.parent{
+    width:80%;
+    height: 300px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    
+   
+    
+
+}
+.parent .services1{
+    text-align: center;
+    justify-content: space-evenly;
+    border-right: 2px solid #d9dbdb;
+    padding: 20px;
+    
+    
+}
+
+.parent .services1 h2{
+    font-weight:600;
+    font-size: 20px;
+    color: grey;
+}
+
+
+.parent .services1 p{
+    color: grey;
+    line-height: 30px;
+}
+
+/* about css ends */
+
+
+/* services css  */
+.services{
+    background-image: url(../images/services-bg.jpg);
+    width:100%;
+    height: 728px;
+    background-size: cover;
+}
+
+.services .services-ctn h1{
+    color: #02918c;
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    padding-top:72px;
+
+}
+
+.services .services-ctn h3{
+   color: grey;
+   font-size: 20px;
+   padding: 15px 0; 
+}
+.services .services-ctn p{
+    color: grey;
+    font-size: 15px;
+    font-weight:400;
+    line-height: 40px;
+}
+ 
+
+.Wrapper{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    padding:3% 0;
+    justify-content: left;
+}
+.Wrapper h2{
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.Wrapper .services1{
+    padding-right: 10%;
+}
+.wrapper2{
+    width: 50%;
+    height: 50px;
+    padding-top: 15%;
+    display: flex;
+}
+
+.wrapper2 h2{
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.wrapper2 .services1{
+    padding-right: 10%;
+}
+/* Services css ends */
+.images{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contract{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+.contract p{
+    text-align: center;
+    font-weight: 600;
+    color: #d9dbdb;
+}
